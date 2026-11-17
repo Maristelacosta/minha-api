@@ -1,4 +1,3 @@
-
 const conectar = require('./db');
 
 async function criarTabela() {
