@@ -1,132 +1,32 @@
+# 🚀 Task Manager API
 
-<img width="4032" height="961" alt="image" src="https://github.com/user-attachments/assets/a12931be-8387-47aa-bcf3-a07bd9672f84" />
+REST API built with Node.js and Express for task management.
 
+## Status
 
+✅ CRUD operations implemented
 
+✅ GitHub integrated
 
-API REST de gerenciamento de tarefas desenvolvida com Node.js e Express.
+✅ SQLite database configured
 
-## 📋 Funcionalidades
-
-- Criar tarefas
-- Listar tarefas
-- Atualizar tarefas
-- Excluir tarefas
-- API RESTful
-- Integração futura com SQLite
-
-## 🛠️ Tecnologias
+## Technologies
 
 - Node.js
-- Express
+- Express.js
+- SQLite
 - Git
 - GitHub
-- SQLite (em desenvolvimento)
 
-## 📂 Estrutura do Projeto
+## Features
 
-```text
-minha-api
-│
-├── database
-├── src
-│   └── app.js
-├── package.json
-├── package-lock.json
-└── README.md
-```
+- Create tasks
+- List tasks
+- Update tasks
+- Delete tasks
 
-## ⚙️ Instalação
+## Author
 
-Clone o repositório:
+Maristela Costa
 
-```bash
-git clone https://github.com/Maristelacosta/minha-api.git
-```
-
-Entre na pasta:
-
-```bash
-cd minha-api
-```
-
-Instale as dependências:
-
-```bash
-npm install
-```
-
-Execute o projeto:
-
-```bash
-npm run dev
-```
-
-## 🌐 Rotas da API
-
-### Página Inicial
-
-```http
-GET /
-```
-
-Resposta:
-
-```json
-{
-  "mensagem": "API funcionando!"
-}
-```
-
-### Listar tarefas
-
-```http
-GET /tarefas
-```
-
-### Criar tarefa
-
-```http
-POST /tarefas
-```
-
-Body:
-
-```json
-{
-  "titulo": "Estudar Node.js"
-}
-```
-
-### Atualizar tarefa
-
-```http
-PUT /tarefas/:id
-```
-
-### Excluir tarefa
-
-```http
-DELETE /tarefas/:id
-```
-
-## 📸 Exemplo
-
-```json
-[
-  {
-    "id": 1,
-    "titulo": "Estudar SQLite"
-  }
-]
-```
-
-## 👩‍💻 Autora
-
-**Maristela Costa**
-
-Projeto desenvolvido para aprendizado de Node.js, Express, Git e GitHub.
-
-## 📄 Licença
-
-Este projeto é livre para fins de estudo.
+Backend study project developed with Node.js, Express, SQLite, Git and GitHub.
