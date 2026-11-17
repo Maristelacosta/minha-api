@@ -7,5 +7,3 @@ async function conectar() {
     driver: sqlite3.Database
   });
 }
-
-module.exports = conectar;
