@@ -1,9 +1,16 @@
-const sqlite3 = require('sqlite3');
-const { open } = require('sqlite');
+const conectar = require('./db');
 
-async function conectar() {
-  return open({
-    filename: './database/tarefas.db',
-    driver: sqlite3.Database
-  });
+async function criarTabela() {
+  const db = await conectar();
+
+  await db.exec(`
+    CREATE TABLE IF NOT EXISTS tarefas (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      titulo TEXT NOT NULL
+    )
+  `);
+
+  console.log('Tabela criada!');
 }
+
+criarTabela();
