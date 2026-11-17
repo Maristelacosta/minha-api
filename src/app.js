@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use(express.json());
+const tarefas = [];
 
 // Página inicial
 app.get('/', (req, res) => {
@@ -29,7 +29,7 @@ app.post('/tarefas', (req, res) => {
 
   tarefas.push(novaTarefa);
 
-  tarefas.push(...)
+  res.status(201).json(novaTarefa);
 });
 
 app.listen(3000, () => {
