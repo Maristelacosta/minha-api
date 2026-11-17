@@ -3,8 +3,6 @@
 
 
 
-<img width="4032" height="961" alt="image" src="https://github.com/user-attachments/assets/e7ed1ac2-3763-4875-a16a-a661708d00ca" />
-
 
 API REST de gerenciamento de tarefas desenvolvida com Node.js e Express.
 
