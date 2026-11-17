@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const tarefas = [];
+app.use(express.json());
 
 // Página inicial
 app.get('/', (req, res) => {
