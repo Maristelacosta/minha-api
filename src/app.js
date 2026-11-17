@@ -29,7 +29,7 @@ app.post('/tarefas', (req, res) => {
 
   tarefas.push(novaTarefa);
 
-  res.status(201).json(novaTarefa);
+  tarefas.push(...)
 });
 
 app.listen(3000, () => {
